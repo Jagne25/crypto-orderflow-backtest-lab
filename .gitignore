@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+src/*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets — never commit (demo ships with none)
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+credentials*
+secrets*
+
+# Local experiment outputs
+/output/
+/artifacts/
+*.npz
+!data/synthetic/
