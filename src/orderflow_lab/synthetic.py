@@ -1,7 +1,7 @@
 """Synthetic L2 + trade generator and CSV loaders.
 
 No exchange credentials. No production captures. Fixtures are tiny and
-deterministic so CI / Upwork reviewers can reproduce results offline.
+deterministic so local runs and CI can reproduce results offline.
 """
 
 from __future__ import annotations
